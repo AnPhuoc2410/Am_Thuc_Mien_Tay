@@ -1,0 +1,95 @@
+.logo{
+    height: 70px;
+    object-fit: contain;
+    width: 100px;
+}
+.header{
+    margin-bottom: 20px;
+}
+.navbar-nav a{
+    color: #16a1a1;
+}
+.ml-5{
+    margin-left: 5px;
+}
+.content1 h1{
+    font-size: xx-large;
+    color: orange;
+}
+.content1 p{
+    font-size: large;
+}
+.am-thuc{
+    display: flex;
+    margin:0 auto;
+}
+.content2{
+    background-color: #16a1a1;
+}
+.headline{
+    color: orange;
+    border-bottom: black solid 5px;
+}
+.content2 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: fill;
+}
+.tittle{ 
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.display-flex{
+    display: flex;
+    margin-bottom: 30px;
+}
+.content3 h1{
+    color: orange;
+    text-align: center;
+
+}
+.content3 p{
+    font-size: x-large;
+    margin-left: 3px;
+}
+.display-flex2 {
+    display: flex;
+    width: 50%;
+    margin-left: 200px ;
+}
+.display-flex2 img{
+    display: inline;
+    width: 70%;
+}
+.family-party {
+    padding: 0 15px 15px 15px;
+  }
+.family-party img{
+    width: 70%;
+    margin: 0 auto;
+}
+.footer{
+    background-color: aqua;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    padding: 15px 0px;
+}
+@media (max-width: 992px) {
+    .navbar-restaurant{
+        margin-top: 30px;
+    }
+    .am-thuc{
+        width: 100%;
+    }
+    .display-flex2 {
+    margin-left: 60px;
+    }
+    .family-party img{
+        width: 100%;
+    }
+    
+}
